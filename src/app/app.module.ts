@@ -7,7 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AccomodationComponent } from './accomodation/accomodation.component';
 import { RoomsComponent } from './accomodation/rooms/rooms.component';
-import { FoodBeverageComponent } from './food-and-beverage/food-and-beverage.component';
+import { FoodAndBeverageComponent } from './food-and-beverage/food-and-beverage.component';
 import { RestaurantComponent } from './food-and-beverage/restaurant/restaurant.component';
 import { BarsComponent } from './food-and-beverage/bars/bars.component';
 import { LifestyleComponent } from './lifestyle/lifestyle.component';
@@ -29,7 +29,7 @@ import { SignupComponent } from './auth/signup/signup.component';
     AppComponent,
     AccomodationComponent,
     RoomsComponent,
-    FoodBeverageComponent,
+    FoodAndBeverageComponent,
     RestaurantComponent,
     BarsComponent,
     LifestyleComponent,

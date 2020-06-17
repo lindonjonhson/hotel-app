@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './food-and-beverage.component.html',
   styleUrls: ['./food-and-beverage.component.sass']
 })
-export class FoodBeverageComponent implements OnInit {
+export class FoodAndBeverageComponent implements OnInit {
 
   constructor() { }
 
