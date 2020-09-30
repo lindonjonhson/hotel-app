@@ -12,12 +12,16 @@
 </mat-sidenav-container> 
 -->
 <mat-sidenav-container>
-    <mat-sidenav>
+
+    <mat-sidenav #sidenav>
         <app-sidenav-list></app-sidenav-list>
     </mat-sidenav>
+
     <mat-sidenav-content>
+        
         <app-header></app-header>
         <app-navtabs></app-navtabs>
+
     </mat-sidenav-content>
 
     <router-outlet></router-outlet>
