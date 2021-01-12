@@ -1,2 +1,10 @@
+@import '~@angular/material/theming'
+
+
+@mixin navtabs-container-theme($theme)
+    $primary: map-get($theme, primary)
+    $accent: map-get($theme, accent)
+
+    
 .toolbar-flex
     flex: 1 0.5 auto
